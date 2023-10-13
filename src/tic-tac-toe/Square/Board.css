@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3em 10em;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.board {
+    margin-top: 2em;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    width: 10em;
+    height: 10em;
+}
